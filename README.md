@@ -1,7 +1,7 @@
 Aspose For Hadoop
 =================
 
-Aspose for Hadoop project enables Hadoop developers to work with binary file formats. The Hadoop / MR developers can use this project to convert binary sequence files into text sequence files. The text can then be used for analysis purpose in MapReduce algorithms.
+Aspose for Hadoop project enables Hadoop developers to work with binary file formats. The Hadoop / MR developers can use this project to create and convert binary sequence files into text sequence files. The text can then be used for analysis purpose in MapReduce algorithms.
 
 Packages
 --------
