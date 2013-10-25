@@ -38,6 +38,6 @@ CreateEmailTextSequence
 
       Picks up binary sequence file(s) generated from emails (msg emails), parses text from the msg files, creates a text sequence file and stores this text sequence file to an HDFS directory.
       Usage: [Hadoop_HOME]$ bin/hadoop jar AsposeForHadoop.jar CreateEmailTextSequence <HDFS input directory> <HDFS output directory>
-      Tip: Put your PPTX presentations in an HDFS directory, use CreateBinarySequence mapper to generate binary sequence file. Finally supply output directory of this mapper as an input here.
+      Tip: Put your msg files in an HDFS directory, use CreateBinarySequence mapper to generate binary sequence file. Finally supply output directory of this mapper as an input here.
 
 Aspose: www.aspose.com
