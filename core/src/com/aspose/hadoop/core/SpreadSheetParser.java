@@ -1,14 +1,12 @@
 package com.aspose.hadoop.core;
 
+import com.aspose.cells.*;
+
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-
-import com.aspose.cells.*;
-import com.aspose.slides.AsposeLicenseException;
-import com.aspose.slides.License;
 
 public class SpreadSheetParser {
 	
