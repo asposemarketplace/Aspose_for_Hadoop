@@ -1,8 +1,6 @@
 package com.aspose.hadoop.core;
 
 import com.aspose.email.*;
-import com.aspose.slides.AsposeLicenseException;
-import com.aspose.slides.License;
 
 import java.io.*;
 
