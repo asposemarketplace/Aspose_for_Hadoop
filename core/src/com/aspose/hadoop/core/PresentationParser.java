@@ -1,8 +1,8 @@
 package com.aspose.hadoop.core;
 
-import java.io.InputStream;
-
 import com.aspose.slides.*;
+
+import java.io.InputStream;
 
 public class PresentationParser {
 
@@ -48,7 +48,7 @@ public class PresentationParser {
 	                	{
 	                		//Accessing the text frame of shape
 	                		TextFrameEx tfText=aShape.getTextFrame();
-	                		presText = presText + ReadText(tfText);
+	                		presText = presText + readText(tfText);
 	                	}//End Text Frame IF
 	                }//End AutoShape Check
 	                else if(shape instanceof AutoShapeEx )
@@ -59,7 +59,7 @@ public class PresentationParser {
 	                	{
 	                		//Accessing the text frame of shape
 	                		TextFrameEx tfText=aShp.getTextFrame();
-	                		presText = presText + ReadText(tfText);
+	                		presText = presText + readText(tfText);
 	                	}//End Text Frame IF
 	                                                               
 	                }//End AutoShape Check
@@ -79,7 +79,7 @@ public class PresentationParser {
 	                			if (aShp.getTextFrame() != null)
 	                			{
 	                				TextFrameEx tfText=aShp.getTextFrame();
-	                				presText = presText + ReadText(tfText);
+	                				presText = presText + readText(tfText);
 	                			}//End Text Frame IF
 	                		}
 	                	}
@@ -94,7 +94,7 @@ public class PresentationParser {
 	                		{
 	                			TextFrameEx tfText=tTable.get_Item(iCol,iRow).getTextFrame();
 	                			if(tfText!=null)
-	                				presText = presText + ReadText(tfText);
+	                				presText = presText + readText(tfText);
 	                		}//End Row Loop
 	                	}//End Col Loop
 	                }//End Group Shape IF
@@ -109,7 +109,7 @@ public class PresentationParser {
 	   	}
 	   	return presText;
 	}
-	  private String ReadText(TextFrameEx TxtFrame)
+	  private String readText(TextFrameEx TxtFrame)
 	  {
 	    String prText="";
 	    for(int pgCount=0;pgCount<TxtFrame.getParagraphs().getCount();pgCount++)
