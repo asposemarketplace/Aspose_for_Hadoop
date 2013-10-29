@@ -1,7 +1,5 @@
 package com.aspose.hadoop.core;
 
-import com.aspose.slides.AsposeLicenseException;
-import com.aspose.slides.License;
 import com.aspose.words.*;
 
 import java.io.BufferedReader;
